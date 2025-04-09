@@ -10,3 +10,7 @@ variable "image" {
   description = "Image used to start the container. Should be in repository-url/image:tag format."
   type        = string
 }
+variable "tf-profile" {
+  description = "Terraform provider profile name"
+  type        = string
+}
